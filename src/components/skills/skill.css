@@ -1,10 +1,11 @@
 .skills__container {
-    grid-template-columns: repeat(2, 350px);
+    max-width: 992px;
+    /* grid-template-columns: max-content; */
     column-gap: 3rem;
     justify-content: center;
 }
 
-.skills__content {
+.skill__content {
     background-color: var(--body-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 1.75rem;
@@ -53,12 +54,65 @@
 
 }
 
+/* Tool Style */
+
+.tool__content {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.tool__box {
+  /* width: 100%; */
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-top: 30px; */
+}
+
+.tool__group {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* column-gap: 2rem; */
+  margin: 2rem;
+}
+
+.tools__data {
+    width: calc(20% );
+    margin-bottom: 20px;
+    text-align: center;
+    /* border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .5rem; */
+    column-gap: 2rem ;
+}
+
+.tool__img {
+    width: 50%;
+    /* border-radius: 5px; */
+    background-color: rgba(163, 163, 163, 0.1);
+    border: 1px solid rgba(163, 163, 163, 0.1);
+    backdrop-filter: blur(3px);
+    border-radius: .5rem;
+    
+}
+
+.tool__name {
+  display: block;
+  margin-top: 1rem;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-normal);
+  margin-bottom: var(--mb-0-5);
+}
+
+
 /* ========BREAKPOINTS======== */
 /* For Large Devices */
 @media screen and (max-width: 992px){
     .skills__container {
-        grid-template-columns: max-content;
-        row-gap: 2rem;
+        max-width: 992px;
+        column-gap: 2rem;
+        justify-content: center;
     }
 }
 
@@ -68,36 +122,42 @@
         grid-template-columns: 1fr;
     }
 
-    .skills__content {
+    .tool__content {
         padding: 1.5rem;
     }
 
-    .skills__box {
+    .tool__box {
         justify-content: center;
     }
 }
 
 @media screen and (max-width: 576px){
     .skills__container {
-        grid-template-columns: 1fr;
-    }
-
-    .skills__content {
-        padding: 1.5rem;
-    }
-
-    .skills__box {
+        max-width: 576px;
+        column-gap: 2rem;
         justify-content: center;
+    }
+
+    .tool__content {
+        padding: 1.5rem 1.5rem;
+    }
+
+    .tool__box {
+        justify-content: center;
+    }
+
+    .tool__name {
+        font-size: var(--smaller-font-size);
     }
 }
 
 /* For Small Devices */
 @media screen and (max-width: 350px){
-    .skills__box {
-        column-gap: 1.25rem;
+    .tool__box {
+        column-gap: 2rem;
     }
 
-    .skills__name {
-        font-size: var(--small-font-size);
+    .tool__name {
+        font-size: var(--smaller-font-size);
     }
 }

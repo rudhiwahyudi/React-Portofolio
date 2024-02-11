@@ -71,7 +71,7 @@
 
 /* ========BREAKPOINTS======== */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px ){
     .header{
         top: initial;
         bottom: 0;     
@@ -81,7 +81,7 @@
     }
     .nav__menu{
         position: fixed;
-        bottom: -100%;
+        bottom: -700%;
         left: 0;
         width: 100%;
         background-color: var(--body-color);
@@ -89,6 +89,11 @@
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem 0 0;
         transition: .3s ease-in-out;
+    }
+
+    .nav__logo {
+    width: 20px;
+    height: 20px;
     }
 
     /* Show Menu */
@@ -140,5 +145,10 @@
 
   .nav__list{
     column-gap: 0;
+  }
+
+  .nav__logo {
+    width: 15px;
+    height: 15px;
   }
 }

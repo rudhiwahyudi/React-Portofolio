@@ -22,10 +22,10 @@ const Contact = () => {
     };
   return (
     <section className="contact section" id="contact">
-      <h2 className="section__title" data-aos="fade-up">
+      <h2 className="section__title">
         Get in touch
       </h2>
-      <span className="section__subtitle" data-aos="fade-up">
+      <span className="section__subtitle">
         Contact Me
       </span>
 
@@ -33,7 +33,7 @@ const Contact = () => {
         <div className="contact__content" data-aos="fade-up">
           <h3 className="contact__title">Talk to me</h3>
 
-          <div className="contact__info">
+          <div className="contact__info" data-aos="fade-up">
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
 

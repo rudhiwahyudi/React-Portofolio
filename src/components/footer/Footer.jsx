@@ -14,13 +14,13 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="#portfolio" className="footer__link">
+            <a href="#portofolio" className="footer__link">
               Project
             </a>
           </li>
           <li>
-            <a href="#testimonial" className="footer__link">
-              Testimonial
+            <a href="#contact" className="footer__link">
+              Contact
             </a>
           </li>
         </ul>
@@ -51,7 +51,9 @@ const Footer = () => {
           </a>
         </div>
 
-        <span className='footer__copy'>&#169; Crypticalcoder-Rudhi Wahyudi. All rights reserved</span>
+        <span className="footer__copy">
+          &#169; Crypticalcoder-Rudhi Wahyudi. All rights reserved
+        </span>
       </div>
     </footer>
   );

@@ -16,26 +16,26 @@ const Services = () => {
 
   return (
     <section className="services section" id="services">
-      <h2 className="section__title" data-aos="fade-up">
+      <h2 className="section__title">
         Services
       </h2>
-      <span className="section__subtitle" data-aos="fade-up">
+      <span className="section__subtitle">
         What I Offer
       </span>
 
       <div className="services__container container grid">
         <div className="services__content">
-          <div data-aos="fade-up">
+          <div data-aos="zoom-in">
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              Product <br /> Design
+              Web <br /> Design
             </h3>
           </div>
 
           <span
             className="services__button"
             onClick={() => toggleTab(1)}
-            data-aos="fade-up"
+            data-aos="zoom-in"
           >
             View More
             <i
@@ -58,7 +58,7 @@ const Services = () => {
                     services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Product Designer</h3>
+              <h3 className="services__modal-title">Web Design</h3>
               <p className="services__modal-description">
                 These days, I focus on leading design at GiveDirectly, a
                 nonprofit that lets donors send money directly to the world's
@@ -97,7 +97,7 @@ const Services = () => {
         </div>
 
         <div className="services__content">
-          <div data-aos="fade-up">
+          <div data-aos="zoom-in">
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
               UI/UX <br /> Designer
@@ -107,7 +107,7 @@ const Services = () => {
           <span
             className="services__button"
             onClick={() => toggleTab(2)}
-            data-aos="fade-up"
+            data-aos="zoom-in"
           >
             View More
             <i
@@ -169,7 +169,7 @@ const Services = () => {
         </div>
 
         <div className="services__content">
-          <div data-aos="fade-up">
+          <div data-aos="zoom-in">
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
               Visual <br /> Design
@@ -179,7 +179,7 @@ const Services = () => {
           <span
             className="services__button"
             onClick={() => toggleTab(3)}
-            data-aos="fade-up"
+            data-aos="zoom-in"
           >
             View More
             <i

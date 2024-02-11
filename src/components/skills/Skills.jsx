@@ -1,7 +1,8 @@
 import React, {useEffect} from 'react'
 import "./skill.css"
-import Frontend from "./Frontend"
-import Backend from './Backend'
+// import Frontend from "./Frontend"
+// import Backend from './Backend'
+import Tool from './Tool'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -11,17 +12,11 @@ const Skills = () => {
   },[])
   return (
     <section className="skills section" id="skills">
-      <h2 className="section__title" data-aos="fade-up">
-        Skills
-      </h2>
-      <span className="section__subtitle" data-aos="fade-up">
-        My Technical Level
-      </span>
+      <h2 className="section__title">Tools & Tech Stack</h2>
+      <span className="section__subtitle">My Tools & Tech Stack</span>
 
       <div className="skills__container container grid" data-aos="fade-up">
-        <Frontend />
-
-        <Backend />
+        <Tool />
       </div>
     </section>
   );

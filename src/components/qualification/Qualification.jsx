@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import "./qualification.css"
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { PiCertificateBold } from "react-icons/pi";
 
 const Qualification = () => {
   useEffect(() => {
@@ -15,12 +16,8 @@ const Qualification = () => {
   }
   return (
     <section className="qualification section">
-      <h2 className="section__title" data-aos="fade-up">
-        Qualification
-      </h2>
-      <span className="section__subtitle" data-aos="fade-up">
-        My personal journey
-      </span>
+      <h2 className="section__title">Qualification</h2>
+      <span className="section__subtitle">My personal journey</span>
 
       <div className="qualification__container container">
         <div className="qualifications__tabs" data-aos="fade-up">
@@ -62,10 +59,7 @@ const Qualification = () => {
             }
             onClick={() => toggleTab(3)}
           >
-            <i
-              className="uil uil-certificate
-            qualification__icon"
-            ></i>
+            <PiCertificateBold className="qualification__icon" />
             Certification
           </div>
         </div>
@@ -237,6 +231,27 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">
+                  Program Kreativitas Mahasiswa
+                </h3>
+                <span className="qualification__subtitle">
+                  Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>
+                  2023
+                </div>
+              </div>
+            </div>
+            
+            <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
                   Microsoft Office Specialist
@@ -263,7 +278,7 @@ const Qualification = () => {
               </div>
               <div>
                 <h3 className="qualification__title">
-                  Machine Learning Professional Certication
+                  Machine Learning Professional Certification
                 </h3>
                 <span className="qualification__subtitle">RapidMiner</span>
                 <div className="qualification__calendar">
@@ -276,7 +291,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  Data Engineering Professional Certication
+                  Data Engineering Professional Certification
                 </h3>
                 <span className="qualification__subtitle">RapidMiner</span>
                 <div className="qualification__calendar">

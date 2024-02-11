@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import "./about.css";
-import AboutImg from "../../assets/about_1.jpg";
+import AboutImg from "../../assets/about_2.jpg";
 import CV from "../../assets/Resume.pdf";
 import Info from './Info'
 import AOS from "aos";
@@ -12,22 +12,37 @@ const About = () => {
   }, []); 
   return (
     <section className="about section" id="about">
-      <h2 className="section__title" data-aos="fade-up">About Me</h2>
-      <span className="section__subtitle" data-aos="fade-up">My Introduction</span>
+      <h2 className="section__title">About Me</h2>
+      <span className="section__subtitle">My Introduction</span>
 
       <div className="about__container container grid" data-aos="fade-up">
-        <img src={AboutImg} alt="about_img" className="about__img" />
+        <img
+          src={AboutImg}
+          alt="about_img"
+          className="about__img"
+          data-aos="fade-up"
+        />
 
-        <div className="about__data">
+        <div className="about__data" data-aos="fade-up">
           <Info />
 
-          <p className="about__description">
-            Over the past 12+ years, I've worked in various areas of digital
-            design, including front-end development, email, marketing, and app
-            UI/UX. I'm proud to have worn many hats.
+          <p className="about__description" data-aos="fade-up">
+            Hi, I'm Rudhi Wahyudi, I'm a 8th semester informatics student, at
+            Yogyakarta University of Technology, I focus on UI/UX Design and
+            fornt-end developer. Over the past 1 year, I have been working as a
+            freelancer in various digital design fields, including front-end
+            development, social media, marketing, and application UI/UX. I've
+            always been interested in the art and architecture of systems, I
+            love adventuring and traveling, seeking experiences and always being
+            inspired by new people and environments.
           </p>
 
-          <a download="" href={CV} className="button button--flex">
+          <a
+            download=""
+            href={CV}
+            className="button button--flex"
+            data-aos="fade-up"
+          >
             Download CV
             <svg
               class="button__icon"
