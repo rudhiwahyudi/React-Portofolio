@@ -182,7 +182,7 @@ const Qualification = () => {
                 <span className="qualification__subtitle">Freelancer</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
-                  2022 - Present
+                  2023 - Present
                 </div>
               </div>
             </div>
@@ -193,7 +193,7 @@ const Qualification = () => {
                 <span className="qualification__subtitle">Freelancer</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
-                  2022 - Present
+                  2023 - Present
                 </div>
               </div>
 
@@ -202,6 +202,63 @@ const Qualification = () => {
                 <div className="qualification__line"></div>
               </div>
             </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">
+                  Practice Assistant Lecturer - Big Data & Data Analyst
+                </h3>
+                <span className="qualification__subtitle">
+                  Universitas Teknologi Yogyakarta
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>
+                  2023 - 2024
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  Practice Assistant Lecturer - Aplikasi Teknologi Informasi
+                </h3>
+                <span className="qualification__subtitle">
+                  Universitas Teknologi Yogyakarta
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>
+                  2023 - 2024
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <div className="qualification__line"></div>
+              </div>
+            </div>
+
+            {/* <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Graphic Designer</h3>
+                <span className="qualification__subtitle">Creative Studio</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>
+                  2020 - 2022
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <div className="qualification__line"></div>
+              </div>
+            </div> */}
 
             {/* <div className="qualification__data">
               <div></div>
@@ -250,7 +307,7 @@ const Qualification = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">

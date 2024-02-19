@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import { useState } from 'react';
 import Logo from "../../assets/logo.png"
+import { Link } from "react-router-dom";
 
 const Header = () => {
   /* ========== CHANGE BACKGORUND HEADER ========== */

@@ -8,13 +8,13 @@ import Work5 from "../../assets/work5.jpg";
 export const projectsData = [
   {
     id: 1,
-    image: Work1,
+    image: Work2,
     title: "Web Design",
     category: "Web",
   },
   {
     id: 2,
-    image: Work2,
+    image: Work1,
     title: "App Mobile",
     category: "App",
   },
@@ -26,13 +26,13 @@ export const projectsData = [
 //   },
   {
     id: 4,
-    image: Work4,
+    image: Work3,
     title: "UI Design",
     category: "Design",
   },
   {
     id: 5,
-    image: Work5,
+    image: Work4,
     title: "Visual Design",
     category: "Design",
   },
